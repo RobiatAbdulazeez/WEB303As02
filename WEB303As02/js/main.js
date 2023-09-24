@@ -15,10 +15,7 @@ $(document).ready(function () {
           content.html(xhttp.responseText); //Set the new content
           content.fadeIn(400); //fade in the new content
         });
-      } else {
-        // Display an error message if the request is not successful
-        content.html('<p>Error: Request failed with status ' + this.status + '</p>');
-      }
+      } 
     };
     xhttp.send();
   }
