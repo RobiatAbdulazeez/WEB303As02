@@ -23,17 +23,17 @@ $(document).ready(function () {
   //Click event handlers for the links
   $("#prospect").click(function () {
     content.empty(); //clear the content div
-    LoadContent("prospect"); //load new content
+    LoadContent("prospect.html"); //load new content
   });
 
   $("#convert").click(function () {
     content.empty(); //clear the content div
-    LoadContent("convert"); //load new content
+    LoadContent("convert.html"); //load new content
   });
 
   $("#retain").click(function () {
     content.empty(); //clear the content div
-    LoadContent("retain"); //load new content
+    LoadContent("retain.html"); //load new content
   });
 
 });
